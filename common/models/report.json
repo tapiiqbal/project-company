@@ -1,0 +1,101 @@
+{
+    "name": "Report",
+    "options": {
+      "idInjection": true,
+      "mysql": {
+        "schema": "loopback-example-mysql",
+        "table": "report"
+      }
+    },
+    "properties": {
+      "id": {
+        "type": "Number",
+        "required": true,
+        "length": null,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "id",
+          "dataType": "int",
+          "dataLength": null,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      },
+      "Report Name": {
+        "type": "String",
+        "required": false,
+        "length": 512,
+        "precision": null,
+        "scale": null,
+        "mysql": {
+          "columnName": "report_name",
+          "dataType": "varchar",
+          "dataLength": 512,
+          "dataPrecision": null,
+          "dataScale": null,
+          "nullable": "N"
+        }
+      },"Project Name": {
+        "type": "String",
+        "required": false,
+        "length": null,
+        "precision": null,
+        "scale": null,
+        "mysql": {
+          "columnName": "project_name",
+          "dataType": "varchar",
+          "dataLength": null,
+          "dataPrecision": null,
+          "dataScale": null,
+          "nullable": "N"
+        }
+      },
+      "Subject": {
+        "type": "String",
+        "required": false,
+        "length": null,
+        "precision": null,
+        "scale": null,
+        "mysql": {
+          "columnName": "subject",
+          "dataType": "varchar",
+          "dataLength": null,
+          "dataPrecision": null,
+          "dataScale": null,
+          "nullable": "N"
+        }
+      },
+      "Report Number": {
+        "type": "String",
+        "required": false,
+        "length": null,
+        "precision": null,
+        "scale": null,
+        "mysql": {
+          "columnName": "report_number",
+          "dataType": "varchar",
+          "dataLength": null,
+          "dataPrecision": null,
+          "dataScale": null,
+          "nullable": "N"
+        }
+      },
+      "Information": {
+        "type": "String",
+        "required": false,
+        "length": null,
+        "precision": null,
+        "scale": null,
+        "mysql": {
+          "columnName": "information",
+          "dataType": "varchar",
+          "dataLength": null,
+          "dataPrecision": null,
+          "dataScale": null,
+          "nullable": "N"
+        }
+      }
+    }
+  }

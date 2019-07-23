@@ -3,13 +3,12 @@
     "name": "db",
     "connector": "memory"
   },
-  "accountDS": {
-    "host": "demo.strongloop.com",
-    "port": 27017,
-    "database": "demo",
-    "username": "demo",
-    "password": "L00pBack",
-    "name": "accountDS",
-    "connector": "mongodb"
+  "mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "user",
+    "username": "root",
+    "name": "mysql",
+    "connector": "mysql"
   }
 }
