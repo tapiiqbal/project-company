@@ -1,5 +1,6 @@
 {
     "name": "Report",
+    "base": "PersistedModel",
     "options": {
       "idInjection": true,
       "mysql": {
@@ -16,6 +17,21 @@
         "scale": 0,
         "mysql": {
           "columnName": "id",
+          "dataType": "int",
+          "dataLength": null,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      },
+      "clientId": {
+        "type": "Number",
+        "required": true,
+        "length": null,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "clientId",
           "dataType": "int",
           "dataLength": null,
           "dataPrecision": 10,
@@ -97,5 +113,9 @@
           "nullable": "N"
         }
       }
-    }
-  }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": []
+}
