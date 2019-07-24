@@ -23,7 +23,7 @@
           "nullable": "N"
         }
       },
-      "Nama Pertama": {
+      "first_name": {
         "type": "String",
         "required": false,
         "length": 512,
@@ -38,7 +38,7 @@
           "nullable": "N"
         }
       },
-      "Nama Terakhir": {
+      "last_name": {
         "type": "String",
         "required": false,
         "length": null,
